@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "montserrat"
+
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+header {
+  height: 200px;
+  background-color: rgb(82, 14, 14);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div {   
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+  align-items: center;
+
+}
+
+nav {
+  display: flex;
+  gap:230px;
+}
+
+nav a { 
+  text-decoration:none;
+  font-size: 20px;
+  color: white;
+}
+
+nav a:hover {
+  color:burlywood;
+}
+
+.imagen{
+  padding-bottom: 300px;
+
+}
+.texto{
+  padding-top: 100px;
+  padding-right: 230px;
+  padding-left: 230px;
+  padding-bottom: 100px;
+  margin: 0;
+  display:list-item;
+  justify-content: none;
+  align-items:justify;
+  text-size-adjust: 40px;
+}
+.texto h1{
+  font-weight: bolder;
+}
+.texto h4{
+  padding-top: 10px;
+  font-style: italic;
+  font-weight: 500;
+}
+.texto h6{
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
